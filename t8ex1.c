@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    /* 
+    /*     PM table
     Print a multiplication table of a number entered by 
     the user in   pretty form
         Enter the number that you want multiplication table of 
@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
             printf("%d x %d = %d\n" ,a,i,c);
           }
 
-       //you take 7:48 sec to write this code
+       //you take 7:48 minutes to write this code
 
     return 0;
 }

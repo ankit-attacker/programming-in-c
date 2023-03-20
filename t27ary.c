@@ -3,7 +3,7 @@ int main()
 {
      int a =34, arr[]={1,2,3,4,5,6,67};
      int *ptra = &a;
-       printf("%d\n", ptra );
+       printf("%d\n", ptra);
        printf("%d\n", ++ptra );
        printf("%d\n", ptra+2);
 

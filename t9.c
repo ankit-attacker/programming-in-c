@@ -2,7 +2,6 @@
 #define PI 3.14
 int main(int argc, char const *argv[])
 {
-  
      // PI =3.744;    can't do since pi is  a constant
     int a =8;
     float b= 7.333;
@@ -12,23 +11,15 @@ int main(int argc, char const *argv[])
     printf("the value of a is %d and the value of b is %.4f\n" , a , b);    
     printf("the value of a is %d and the value of b is %10.4f\n" , a , b);
     printf(" %-20.8f\\",b);
-    printf(" %-18.8fthis\\n \n",b);              //useful for printing output  patterns
-    printf(" %18.8fthi\a\a\a\a\a\a\a\as\\n \n",b);        //useful for printing output  patterns
+    printf(" %-18.8fthis  \\n",b);              //useful for printing output  patterns  //escape sequences
+    printf(" %18.8fthis\a,\f,\a,,\\n \r ankit yadav,\n ji is a good person\n",b); //useful for printing output patterns
         /* different format specifiers
-
         %c  -  char
         %d  -   int
         %f  -   float
         %e  -  long 
-        %lf  - double
-
-        */
-        
-        //ESCAPE Sequenece in c    eg.  \n,\a - alarm or beep , \t -tab;
-   
-   
-   
-   
-   
+        %lf  - double    
+         */
+        //ESCAPE Sequenece in c    eg.\n,\a - alarm or beep , \t -tab;
       return 0;
 }

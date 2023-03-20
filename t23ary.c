@@ -16,7 +16,6 @@ int main()
     /*  for (int i = 0; i < 4; i++)
       {
          printf("The value of %d element of the array is %d\n" , i , marks[i]);
-
       }*/
 
 
@@ -27,18 +26,15 @@ int main()
               printf("The value of %d,%d element of the array is %d\n", i, j, marks[i][j]);
           }
       }*/
-      
-
            //  printing in matrix form
       for (int i = 0; i < 2; i++)        // for loop for 2D array direct initialization
       {
           for (int j = 0; j < 4; j++) 
           {
-             printf("%d  " ,   marks[i][j]);
+             printf("%d  " ,marks[i][j]);
           }
           printf("\n");
       }
-
     /*
      marks[0]=34;
      printf ("marks of student 1 is %d\n", marks[0]);
@@ -47,6 +43,5 @@ int main()
      marks[2]=34;
      marks[3]=44;
      printf ("marks of student 1 is %d\n", marks[0]);*/
-
-      return 0;
+     return 0;
 }

@@ -1,0 +1,1 @@
+// Matrix multiplication in c  //  show if tow matrix are not multiplicable

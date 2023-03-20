@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-  // TIME COMPARISON BETWEEN ITTERATIVE AND RECURSIVE APPROACH
+  // TIME COMPARISON BETWEEN ITTERATIVE AND RECURSIVE APPROACH for calculationg fibonacci number
 
 int i, a, b, d, n;
 clock_t tr,ti;
