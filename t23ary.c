@@ -31,7 +31,7 @@ int main()
       {
           for (int j = 0; j < 4; j++) 
           {
-             printf("%d  " ,marks[i][j]);
+             printf("%d" ,marks[i][j]);
           }
           printf("\n");
       }

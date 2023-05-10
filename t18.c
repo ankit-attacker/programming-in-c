@@ -9,7 +9,7 @@ int main( )
     float d=(float)54/5;
     printf("The value of b is %d\n", (int)b);
     printf("The value of c is %f\n", c);
-    printf("The value of d is %f\n", d);
+    printf("The value of d is %f\n", d);h
     
     return 0;
 }

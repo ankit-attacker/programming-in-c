@@ -16,10 +16,10 @@ int main()
     Enter no of charactersin your eid
     45
     Dynamically allocate the character arry
-    take input from user 
+    take input from user
 
     employee 1:
-    Enter no of charactersin your eid
+    Enter no of characters in your eid
     45
     Dynamically allocate the character arry
     take input from user 
@@ -36,7 +36,7 @@ int main()
     Dynamically allocate the character arry
     take input from user 
 
-     int a  ;
+     int a;
        printf( );*/
 
 
